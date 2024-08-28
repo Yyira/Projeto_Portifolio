@@ -10,6 +10,10 @@ html{
 .p_menu{
     text-decoration: none;
     color: white;
+    border-radius: 10px;
+}
+.p_menu:hover{
+    background-color: rgb(255, 255, 255,0.35);
 }
 .h1_major{
     color: white;
@@ -48,7 +52,7 @@ img{
     padding-top: 2%;
     width: 20%;
 }
-main{
+body{
     display: flex;
 
 }
@@ -66,6 +70,10 @@ p{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(143,143,143,0.5) 0%, rgba(94,94,126,0.5) 83%, rgba(0,0,0,0.5) 100%);
     
+}
+.current:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(143,143,143,0.65) 0%, rgba(94,94,126,0.65) 83%, rgba(0,0,0,0.65) 100%);
 }
 input{
     border: none;
@@ -90,4 +98,7 @@ input{
     text-align: center;
     background-color: rgb(28, 51, 150);
     margin-top: 15px;
+}
+.button:hover{
+    background-color: rgb(33, 60, 184);
 }
