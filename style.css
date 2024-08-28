@@ -30,7 +30,8 @@ html{
     border-radius: 10px;
     margin-bottom: 10px;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(202, 202, 202);
+    padding: 5px;
 }
 
 .text{
@@ -65,4 +66,28 @@ p{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(143,143,143,0.5) 0%, rgba(94,94,126,0.5) 83%, rgba(0,0,0,0.5) 100%);
     
+}
+input{
+    border: none;
+    border-radius: 6px;
+    min-width: 60%;
+    min-height: 30px;
+}
+.contato{
+    margin: 5px;
+}
+.message{
+   
+    width: 100%;
+    min-height: 75px;
+}
+.button{
+    color: rgb(255, 255, 255);
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    min-height: 30px;
+    text-align: center;
+    background-color: rgb(28, 51, 150);
+    margin-top: 15px;
 }
