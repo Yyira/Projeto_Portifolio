@@ -1,36 +1,41 @@
-html{
-   
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(94,94,126,1) 83%, rgba(143,143,143,1) 100%);
-   
+html {
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(94, 94, 126, 1) 83%, rgba(143, 143, 143, 1) 100%);
+
     font-family: sans-serif;
-    
+
 }
 
-.p_menu{
+.p_menu {
     text-decoration: none;
     color: white;
     border-radius: 10px;
 }
-.p_menu:hover{
-    background-color: rgb(255, 255, 255,0.35);
+
+.p_menu:hover {
+    background-color: rgb(255, 255, 255, 0.35);
 }
-.h1_major{
+
+.h1_major {
     color: white;
 }
-.menu{
-   
+
+.menu {
+
     width: 20%;
-    
+
 }
-.major{
-    
+
+.major {
+
     margin-left: 5px;
     width: 80%;
-    
-    
+
+
 }
-.content{
+
+.content {
     border-radius: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -38,58 +43,70 @@ html{
     padding: 5px;
 }
 
-.text{
-   
+.text {
+
     margin: 1%;
     width: 78%;
 }
-img{
+
+img {
     border-radius: 100%;
 }
-.image{
-    
+
+.image {
+
     margin: 1%;
     padding-top: 2%;
     width: 20%;
 }
-body{
+
+body {
     display: flex;
 
 }
-p{  
+
+
+p {
     margin-left: 1px;
     margin-right: 1px;
     padding: 4px;
 }
-.way{
+
+.way {
     text-decoration: nome;
 }
-.current{
+
+.current {
     color: white;
     border-radius: 10px;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(143,143,143,0.5) 0%, rgba(94,94,126,0.5) 83%, rgba(0,0,0,0.5) 100%);
-    
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(143, 143, 143, 0.5) 0%, rgba(94, 94, 126, 0.5) 83%, rgba(0, 0, 0, 0.5) 100%);
+
 }
-.current:hover{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(143,143,143,0.65) 0%, rgba(94,94,126,0.65) 83%, rgba(0,0,0,0.65) 100%);
+
+.current:hover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(143, 143, 143, 0.65) 0%, rgba(94, 94, 126, 0.65) 83%, rgba(0, 0, 0, 0.65) 100%);
 }
-input{
+
+input {
     border: none;
     border-radius: 6px;
     min-width: 60%;
     min-height: 30px;
 }
-.contato{
+
+.contato {
     margin: 5px;
 }
-.message{
-   
+
+.message {
+
     width: 100%;
     min-height: 75px;
 }
-.button{
+
+.button {
     color: rgb(255, 255, 255);
     width: 45%;
     border: none;
@@ -99,6 +116,7 @@ input{
     background-color: rgb(28, 51, 150);
     margin-top: 15px;
 }
-.button:hover{
+
+.button:hover {
     background-color: rgb(33, 60, 184);
 }
